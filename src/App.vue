@@ -5,6 +5,7 @@ export default {
       ip: '',
       city:'',
       region: '',
+      country: '',
     }
   },
 }
