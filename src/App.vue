@@ -1,6 +1,14 @@
 <script>
 export default {
-  methods: {},
+  methods: {
+    async saveData(){
+      try{
+
+      } catch(error){
+        console.log(error)
+      }
+    }
+  },
   data() {
     return {
       ip: "",
