@@ -9,6 +9,11 @@ export default {
       try{
       const { data } = await axios.get('https://api.ipify.org/?format=json')
            console.log(data)
+
+           axios.get(`https://ipinfo.io/${data}/geo`)
+           .then(response => {
+             console.log(response.data)
+           })
       } catch(error){
         console.log(error)
       }
