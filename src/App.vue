@@ -72,7 +72,7 @@ span {
 }
 
 .box {
-  width: 25%;
+  width: 35%;
   border-left: 3px solid;
   border-right: 3px solid;
 }
