@@ -49,9 +49,9 @@ export default {
           <span>{{this.city}}</span>
         </div>
         <div class="box">
-          <span>Hello</span>
+          <span>Timezona</span>
           <br />
-          <span>1111</span>
+          <span>{{this.timezone}}</span>
         </div>
       </div>
     </div>
