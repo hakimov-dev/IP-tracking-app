@@ -2,7 +2,8 @@
 export default {
   data() {
     return {
-      ip: ''
+      ip: '',
+      city:'',
     }
   },
 }
