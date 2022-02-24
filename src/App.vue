@@ -4,6 +4,7 @@ export default {
     return {
       ip: '',
       city:'',
+      region: '',
     }
   },
 }
