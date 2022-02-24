@@ -2,7 +2,7 @@
 import axios from 'axios'
 export default {
   created () {
-    this.saveData
+    this.saveData()
   },
   methods: {
     async saveData(){
