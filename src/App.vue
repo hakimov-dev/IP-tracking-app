@@ -49,5 +49,28 @@ export default {
 </template>
 
 <style>
+span{
+  display: block;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+
+.box{
+  width: 25%;
+  border-left: 3px solid;
+  border-right: 3px solid;
+}
+
+.box span:nth-child(1){
+  /* color: ; */
+  font-weight: 800;
+  font-size: 22px;
+}
 
 </style>
