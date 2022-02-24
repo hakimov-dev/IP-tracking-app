@@ -44,9 +44,9 @@ export default {
           <span>{{this.ip}}</span>
         </div>
         <div class="box">
-          <span>Hello</span>
+          <span>City</span>
           <br />
-          <span>1111</span>
+          <span>{{this.city}}</span>
         </div>
         <div class="box">
           <span>Hello</span>
