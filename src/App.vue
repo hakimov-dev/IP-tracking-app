@@ -39,9 +39,9 @@ export default {
       <h2>Your IP address info</h2>
       <div class="flex card">
         <div class="box">
-          <span>Hello</span>
+          <span>IP Addres</span>
           <br />
-          <span>1111</span>
+          <span>{{this.ip}}</span>
         </div>
         <div class="box">
           <span>Hello</span>
