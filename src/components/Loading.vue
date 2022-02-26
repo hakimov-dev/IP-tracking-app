@@ -16,6 +16,7 @@
       r="30"
     ></circle>
   </svg>
+  <h3>Please wait loading...</h3>
 </template>
 
 <script>
