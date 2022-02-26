@@ -41,17 +41,17 @@ export default {
         <div class="box">
           <span>IP Addres</span>
           <br />
-          <span v-if="this.ip !== ''">{{this.ip}}</span>
+          <span>{{this.ip}}</span>
         </div>
         <div class="box">
           <span>City</span>
           <br />
-          <span v-if="this.city !== ''">{{this.city}}</span>
+          <span>{{this.city}}</span>
         </div>
         <div class="box">
           <span>Timezona</span>
           <br />
-          <span v-if="this.timezone !== ''">{{this.timezone}}</span>
+          <span>{{this.timezone}}</span>
         </div>
       </div>
     </div>
