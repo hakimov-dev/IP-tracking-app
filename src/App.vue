@@ -13,6 +13,7 @@ export default {
            axios.get(`http://ip-api.com/json/${data.ip}`)
            .then(response => {
             //  console.log(response.data)
+             this.data = response.data
              this.ip = response.data.query
              this.city = response.data.city
              this.timezone = response.data.timezone
