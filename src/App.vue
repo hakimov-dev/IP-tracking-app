@@ -8,7 +8,7 @@ export default {
     async saveData(){
       try{
       const { data } = await axios.get('https://api.ipify.org/?format=json')
-           console.log(data)
+          //  console.log(data)
 
            axios.get(`http://ip-api.com/json/${data.ip}`)
            .then(response => {
