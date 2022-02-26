@@ -76,7 +76,7 @@ export default {
         <div class="box">
           <span>Provider</span>
           <br />
-          <span>{{this.ip}}</span>
+          <span>{{this.provider}}</span>
         </div>
         <div class="box">
           <!-- This is Region name section -->
