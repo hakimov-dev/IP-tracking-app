@@ -78,12 +78,6 @@ export default {
           <br />
           <span>{{this.city}}</span>
         </div>
-        <!-- This is Timezona section -->
-        <div class="box">
-          <span>Timezona</span>
-          <br />
-          <span>{{this.timezone}}</span>
-        </div>
       </div>
       <Loader v-else/>
     </div>
