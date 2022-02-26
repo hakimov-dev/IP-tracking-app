@@ -82,7 +82,7 @@ export default {
           <!-- This is Region name section -->
           <span>Region name</span>
           <br />
-          <span>{{this.city}}</span>
+          <span>{{this.region}}</span>
         </div>
       </div>
       <Loader v-else/>
