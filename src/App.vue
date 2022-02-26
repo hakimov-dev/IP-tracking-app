@@ -70,13 +70,13 @@ export default {
       <div class="flex card" v-if="data">
         <!-- This is IP address section -->
         <div class="box">
-          <span>IP Addres</span>
+          <span>Provider</span>
           <br />
           <span>{{this.ip}}</span>
         </div>
         <div class="box">
           <!-- This is City section -->
-          <span>City</span>
+          <span>Region name</span>
           <br />
           <span>{{this.city}}</span>
         </div>
