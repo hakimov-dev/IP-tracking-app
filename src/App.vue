@@ -21,6 +21,7 @@ export default {
              this.ip = response.data.query
              this.city = response.data.city
              this.timezone = response.data.timezone
+             this.provider = response.data.isp
            })
       } catch(error){
         console.log(error)
