@@ -24,6 +24,7 @@ export default {
   },
   data() {
     return {
+      data: null,
       ip: "",
       city: "",
       timezone: "",
