@@ -22,6 +22,7 @@ export default {
              this.city = response.data.city
              this.timezone = response.data.timezone
              this.provider = response.data.isp
+             this.region = response.data.regionName 
            })
       } catch(error){
         console.log(error)
