@@ -45,7 +45,7 @@ export default {
     <div class="card center">
       <!-- Title -->
       <h2>Your IP address info</h2>
-      <div class="flex card">
+      <div class="flex card" v-if="data">
         <!-- This is IP address section -->
         <div class="box">
           <span>IP Addres</span>
@@ -65,6 +65,7 @@ export default {
           <span>{{this.timezone}}</span>
         </div>
       </div>
+      <Loader v-else/>
     </div>
   </div>
 </template>
