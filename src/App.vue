@@ -42,19 +42,16 @@ export default {
           <span>IP Addres</span>
           <br />
           <span v-if="this.ip !== ''">{{this.ip}}</span>
-          <span v-else>Loading...</span>
         </div>
         <div class="box">
           <span>City</span>
           <br />
           <span v-if="this.city !== ''">{{this.city}}</span>
-           <span v-else>Loading...</span>
         </div>
         <div class="box">
           <span>Timezona</span>
           <br />
           <span v-if="this.timezone !== ''">{{this.timezone}}</span>
-          <span v-else>Loading...</span>
         </div>
       </div>
     </div>
