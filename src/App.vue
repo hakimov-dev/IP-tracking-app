@@ -16,7 +16,7 @@ export default {
 
            axios.get(`http://ip-api.com/json/${data.ip}`)
            .then(response => {
-            //  console.log(response.data)
+             console.log(response.data)
              this.data = response.data
              this.ip = response.data.query
              this.city = response.data.city
@@ -45,6 +45,26 @@ export default {
     <div class="card center">
       <!-- Title -->
       <h2>Your IP address info</h2>
+      <div class="flex card" v-if="data">
+        <!-- This is IP address section -->
+        <div class="box">
+          <span>IP Addres</span>
+          <br />
+          <span>{{this.ip}}</span>
+        </div>
+        <div class="box">
+          <!-- This is City section -->
+          <span>City</span>
+          <br />
+          <span>{{this.city}}</span>
+        </div>
+        <!-- This is Timezona section -->
+        <div class="box">
+          <span>Timezona</span>
+          <br />
+          <span>{{this.timezone}}</span>
+        </div>
+      </div>
       <div class="flex card" v-if="data">
         <!-- This is IP address section -->
         <div class="box">
