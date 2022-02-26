@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios'
+import Loader from './components/Loading.vue';
 export default {
   created () {
     this.saveData()
