@@ -34,20 +34,25 @@ export default {
 
 <template>
   <br />
+  <!-- This is container -->
   <div class="container">
     <div class="card center">
+      <!-- Title -->
       <h2>Your IP address info</h2>
       <div class="flex card">
+        <!-- This is IP address section -->
         <div class="box">
           <span>IP Addres</span>
           <br />
           <span>{{this.ip}}</span>
         </div>
         <div class="box">
+          <!-- This is City section -->
           <span>City</span>
           <br />
           <span>{{this.city}}</span>
         </div>
+        <!-- This is Timezona section -->
         <div class="box">
           <span>Timezona</span>
           <br />
