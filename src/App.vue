@@ -33,6 +33,8 @@ export default {
       ip: "",
       city: "",
       timezone: "",
+      provider: "",
+      region: ""
     };
   },
 };
