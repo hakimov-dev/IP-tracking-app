@@ -78,7 +78,6 @@ span {
 }
 
 .box span:nth-child(1) {
-  /* color: ; */
   font-weight: 800;
   font-size: 22px;
 }
