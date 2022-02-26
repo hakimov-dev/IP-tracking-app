@@ -68,14 +68,14 @@ export default {
       </div>
       <!-- Card 2 -->
       <div class="flex card" v-if="data">
-        <!-- This is IP address section -->
+        <!-- This is Provider section -->
         <div class="box">
           <span>Provider</span>
           <br />
           <span>{{this.ip}}</span>
         </div>
         <div class="box">
-          <!-- This is City section -->
+          <!-- This is Region name section -->
           <span>Region name</span>
           <br />
           <span>{{this.city}}</span>
