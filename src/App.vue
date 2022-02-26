@@ -71,7 +71,7 @@ export default {
         </div>
       </div>
       <!-- Card 2 -->
-      <div class="flex card" v-if="data">
+      <div class="flex card card2" v-if="data">
         <!-- This is Provider section -->
         <div class="box">
           <span>Provider</span>
@@ -107,6 +107,10 @@ span {
   width: 35%;
   border-left: 3px solid;
   border-right: 3px solid;
+}
+
+.card2{
+  justify-content: space-evenly;
 }
 
 .box span:nth-child(1) {
