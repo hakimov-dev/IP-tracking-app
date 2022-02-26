@@ -5,6 +5,9 @@ export default {
   created () {
     this.saveData()
   },
+  components: {
+   Loader
+  },
   methods: {
     async saveData(){
       try{
