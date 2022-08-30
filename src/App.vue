@@ -14,15 +14,15 @@ export default {
       const { data } = await axios.get('https://api.ipify.org/?format=json')
           //  console.log(data)
 
-           axios.get(`http://ip-api.com/json/${data.ip}`)
+           axios.get(`https://ipapi.co/${data.ip}/json`)
            .then(response => {
              console.log(response.data)
              this.data = response.data
-             this.ip = response.data.query
+             this.ip = data.ip
              this.city = response.data.city
              this.timezone = response.data.timezone
-             this.provider = response.data.isp
-             this.region = response.data.regionName 
+             this.provider = response.data.org
+             this.region = response.data.region 
            })
       } catch(error){
         console.log(error)
